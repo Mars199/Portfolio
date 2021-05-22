@@ -1,0 +1,481 @@
+/*start main rules*/
+body {
+  background-color: white;
+  height: 4000px;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.clearfix {
+  clear: both;
+}
+/* header */
+
+.header .slider {
+  background-image: url("../images/pexels1.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  background-color: #b5d8ce;
+  height: 700px;
+  background-position-y: -30px;
+}
+.header .slider .intro {
+  padding-top: 300px;
+  height: 600px;
+  text-align: center;
+  color: #fff;
+}
+.header .slider .intro h2 {
+  font-size: 50px;
+  margin: 0 auto;
+  width: 600px;
+  border-top: 3px solid #f4dcda;
+  border-bottom: 3px solid#F4DCDA;
+  padding: 5px 0;
+}
+.header .slider .intro button {
+  background: none;
+
+  margin-top: 30px;
+  font-size: 20px;
+  border: 2px solid #f4dcda;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+}
+.header .navbar {
+  background-color: rgb(244, 220, 218);
+  color: #529d86;
+  overflow: hidden;
+}
+.header .navbar h2 {
+  float: left;
+}
+.header .navbar h2 span {
+  color: #fff;
+}
+.header .navbar .flow {
+  float: left;
+  padding: 0 5px 0 0;
+}
+
+.header .navbar ul {
+  list-style: none;
+  padding-left: 0;
+  float: right;
+}
+.header .navbar ul li {
+  float: left;
+  padding: 10px;
+}
+.header .navbar ul li a {
+  color: #529d86;
+  text-decoration: none;
+}
+.header .navbar ul li a:hover {
+  color: #fff;
+}
+.header .navbar ul li.active a {
+  color: #fff;
+} /* end header */
+/* start features*/
+.features {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.features .feat {
+  color: #feaaa8;
+  float: left;
+  width: 33.3333%;
+  height: 150px;
+}
+
+.features .feat p {
+  line-height: 1.5;
+  color: #529d86;
+
+  padding: 0 20px 0 0;
+}
+
+/*end features*/
+/* start about me */
+.about-me {
+  background-color: #b5d8ce;
+  overflow: hidden;
+  height: 455px;
+}
+.about-me .image {
+  float: left;
+  width: 40%;
+}
+.about-me .image img {
+  width: 100%;
+  height: 455px;
+}
+.about-me .info {
+  float: left;
+  width: 60%;
+}
+.about-me .info h2 {
+  margin: 30px 0 20px 40px;
+  color: #3496ad;
+}
+.about-me .info > p {
+  margin: 0 0 10px 40px;
+  color: white;
+}
+
+.about-me .info > p :last-of-type {
+  margin-top: 20px;
+}
+.about-me .info p {
+  line-height: 1.6;
+}
+
+.about-me .info .hoppy {
+  overflow: hidden;
+  margin: 18px 8px 0 40px;
+  color: #3496ad;
+}
+.about-me .info .hoppy p {
+  color: #fff;
+}
+.about-me .info .hoppy .content {
+  float: left;
+  width: 50%;
+  min-height: 100px;
+  overflow: hidden;
+}
+.about-me .info .hoppy .content .icons {
+  float: left;
+  width: 12%;
+  margin-right: 5%;
+}
+.about-me .info .hoppy .content .icons img {
+  max-width: 100%;
+  margin: 20px 10px 0 0;
+}
+.about-me .info .hoppy .content .text {
+  float: left;
+  width: 83%;
+}
+.about-me .info .hoppy .content .text h3 {
+  margin-bottom: 5px;
+}
+.about-me .info .hoppy .content .text p {
+  margin-top: 0;
+}
+
+/*end about me */
+/*strat skills*/
+.my-skills {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress {
+  width: 50%;
+  float: left;
+}
+.my-skills .skills h2 {
+  margin: 25px 0 20px 40px;
+  color: #feaaa8;
+}
+.my-skills .skills p {
+  margin: 0 0 10px 40px;
+  line-height: 1.6;
+  color: #529d86;
+}
+.my-skills .skills p:last-of-type {
+  margin-top: 25px;
+}
+.my-skills .skills button {
+  background: none;
+  border: 3px solid #3496ad;
+  padding: 10px 30px;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #529d86;
+}
+.my-skills .skills button :hover {
+  color: #ffa9b5;
+}
+.my-skills .skills button a {
+  text-decoration: none;
+  color: #5db49b;
+}
+.my-skills .progress .teq {
+  margin-left: 40px;
+}
+.my-skills .progress .teq h3 {
+  color: #feaaa8;
+}
+.my-skills .progress .teq div {
+  background-color: #f4f7f6;
+  height: 24px;
+}
+.my-skills .progress .teq div span {
+  background-color: #5db49b;
+  width: 80%;
+  height: 25px;
+  display: block;
+  line-height: 25px;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+}
+/* end skills*/
+/*strat resume*/
+/*end resume */
+.resume {
+  background-color: #b5d8ce;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.resume h2 {
+  color: #3496ad;
+}
+.resume p {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.resume button {
+  background: none;
+  border: 3px solid #3496ad;
+  padding: 10px 30px;
+  color: white;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.resume button :hover {
+  color: #feaaa8;
+}
+.resume button a {
+  text-decoration: none;
+  color: #fff;
+}
+/*education */
+.my-education {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.my-education .main {
+  width: 50%;
+  margin-right: 5%;
+  float: left;
+}
+.my-education .exp {
+  width: 45%;
+  float: left;
+}
+.my-education .exp h3 {
+  margin-top: 80px;
+  color: #feaaa8;
+  margin-bottom: 16px;
+}
+.my-education .exp span :first-of-type {
+  color: #529d86;
+}
+.my-education .exp span {
+  display: block;
+  margin-bottom: 16px;
+}
+.my-education .exp h4 {
+  color: white;
+  background-color: #feaaa8;
+  margin-top: 5px;
+  display: inline;
+  padding: 5px 3px;
+  font-size: 15px;
+}
+
+.my-education .main h2 {
+  margin: 25px 0 20px 40px;
+  color: #feaaa8;
+}
+.my-education .main p {
+  margin: 0 0 10px 40px;
+  line-height: 1.6;
+  color: #529d86;
+}
+.my-education .exp hr {
+  margin: 20px 0;
+  background-color: #3496ad;
+  height: 1px;
+  border: 0;
+}
+.my-education .exp p {
+  color: #529d86;
+  line-height: 1.7l;
+}
+.my-education .main p:last-of-type {
+  margin-top: 25px;
+}
+.my-education hr {
+  margin: 20px 0;
+  background-color: #3496ad;
+  height: 1px;
+  border: 0;
+}
+/*start TESTIMONIALS*/
+.testimo {
+  background-color: #b5d8ce;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.testimo q {
+  color: white;
+  line-height: 1.8a;
+  font-size: 18px;
+  font-style: italic;
+}
+.testimo h3 {
+  color: #3496ad;
+  margin-bottom: 30px;
+}
+.testimo ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+.testimo ul li {
+  width: 13px;
+  height: 13px;
+  border: 2px solid #feaaa8;
+  display: inline-block;
+}
+.testimo ul li.active {
+  background-color: #feaaa8;
+}
+.testimo ul li:hover {
+  background-color: #feaaa8;
+}
+
+/*end TESTIMONIALS*/
+/* start portfolio */
+.portfolio {
+  background-color: white;
+  padding-bottom: 50px;
+  padding-top: 70px;
+  text-align: center;
+}
+.portfolio h2 {
+  color: #feaaa8;
+  line-height: 1.7;
+}
+.portfolio p {
+  color: #3496ad;
+}
+.portfolio .our-work {
+  overflow: hidden;
+}
+.portfolio .our-work > div {
+  float: left;
+  width: 33.3333%;
+  margin-bottom: 10px;
+}
+.portfolio .our-work > div img {
+  width: 92%;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 0.5px solid white;
+  box-shadow: 10px 10px 4px #f4dcda;
+}
+/* send portfolio */
+.contact-me {
+  background-color: rgb(244, 220, 218);
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.contact-me h2 {
+  color: white;
+  margin-left: 40px;
+}
+.contact-me .info {
+  width: 50%;
+  margin-left: 5%;
+  float: left;
+}
+.contact-me p {
+  color: #3496ad;
+  margin-left: 40px;
+  line-height: 1.7;
+}
+.contact-me p strong {
+  color: white;
+}
+
+.contact-me .form {
+  float: left;
+  width: 45%;
+}
+.contact-me .form label {
+  display: block;
+  color: #3496ad;
+  margin: 10px 0px;
+}
+.contact-me .form input[type="text"] {
+  background-color: #b5d8ce;
+  color: white;
+
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.contact-me .form textarea {
+  background-color: #b5d8ce;
+  color: white;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+  height: 300px;
+}
+.contact-me .form input[type="submit"] {
+  background-color: #feaaa8;
+  color: #3496ad;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+}
+/*footer*/
+.footer {
+  background-color: #ffa9b5;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  overflow: hidden;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0;
+}
+.footer ul li {
+  display: inline-block;
+}
+/*end footer*/
+/* end main rules */
+
+/*start my framework */
+
+/*end of framework*/
